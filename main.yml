@@ -1,0 +1,16 @@
+---
+      - hosts: aws-ec2
+        remote_user: ec2-user
+        connection: ssh
+
+        tasks:
+            - name: Yum packages Update
+              command: sudo yum update
+
+
+
+
+
+
+
+
