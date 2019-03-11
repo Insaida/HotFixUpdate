@@ -5,7 +5,10 @@
 
         tasks:
             - name: Yum packages Update
-              command: sudo yum update
+              yum:
+                  name: "*"
+                  state: latest
+                  
 
 
 
