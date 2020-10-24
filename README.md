@@ -6,7 +6,7 @@ A Quick Ansible script to fix up Update issues on Amazon Linux issus hosted on e
 
 Copy your .pem key in same directory
 
-To run
+To run the script:
 ```bash
 ansible-playbook main.yml -i inventory
 ```
