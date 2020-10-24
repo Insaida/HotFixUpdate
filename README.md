@@ -1,6 +1,6 @@
 # HotFixUpdate
 
-Quick Ansible script to fix up Update issues
+A Quick Ansible script to fix up Update issues on Amazon Linux issus hosted on ec-2 instances.
 
 # Usage
 
